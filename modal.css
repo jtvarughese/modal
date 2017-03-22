@@ -1,0 +1,150 @@
+#body {
+  background-repeat: no-repeat;
+  height: 820px;
+}
+
+.nav-bar {
+  opacity: 1;
+  display: inline;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+  /*background-color: #a8b7a1;*/
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+
+.nav-div {
+  margin-top: 15px;
+}
+
+.nav-links {
+  font-family: "Avant Garde", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  /*color: #65646d;*/
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: right;
+  padding: 0px 6px;
+  margin-right: 18px;
+  opacity: 1;
+}
+
+.nav-links:hover {
+  /*background-color: black;*/
+  color: #FFFFFF;
+  transition-delay: 0s;
+}
+
+.main-body-div {
+  text-align: center;
+  height: 20%;
+  /*margin-top: 200px;*/
+}
+
+#body-img {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+  margin-top: -7px;
+}
+
+#ceo {
+  height: 100px;
+  width: 100px;
+}
+
+#company-text {
+  font-family: "Andale Mono", sans-serif;
+  color: blue;
+  text-shadow: 10 10 10 10
+  margin: 15px;
+  z-index: 1;
+  position: relative;
+  top: -650px;
+  bottom: 0px;
+  font-size: 48px;
+  text-shadow: 0 0 80px 20px rgba(0, 0, 0, 0.9);
+  /*border: 4px solid #9492a3;*/
+  padding: 20px 2px;
+}
+
+.main-body-text {
+  font-family: "Andale Mono", sans-serif;
+  color: #000000;
+  margin: 15px;
+  z-index: 1;
+  position: relative;
+  top: -625px;
+  bottom: 0px;
+  font-weight: bold;
+}
+
+#enter-link {
+  font-family: "Andale Mono", sans-serif;
+  margin: 15px;
+  text-decoration: none;
+  color: #000000;
+  z-index: 1;
+  position: relative;
+  top: -600px;
+  bottom: 0px;
+  font-size: 18px;
+}
+
+#enter-link:hover {
+  color: white;
+  transition-delay: 0s;
+  font-size: 20px;
+}
+
+.modal-div {
+ display: block;
+ width: 500px;
+ height: 200px;
+ position: fixed;
+ z-index: 100;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ background: white;
+ box-shadow: 0 0 80px 20px rgba(0, 0, 0, 0.9);
+ font-size: 15px;
+}
+
+.close-button {
+ display: block;
+ font-size: 5px;
+ border-radius: 20px;
+}
+
+.modal-div .close-button {
+ position: absolute;
+ z-index: 1;
+ top: 10px;
+ right: 20px;
+ border: 0;
+ background: black;
+ color: white;
+ padding: 2px 5px;
+ font-size: 12px;
+}
+
+#hidden_modal{
+ display: none;
+}
+
+.modals {
+ display:block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ padding-top: 0px 20px 0px 0px;
+}
